@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "xparameters.h"
+#include "xgpio.h"
+
+void delay(int dly)
+{
+    int i, j;
+    for (i = 0; i < dly; i++) {
+    	for (j = 0; j < 0xffff; j++) {
+    		;
+        }
+    }
+}
+
+int main()
+{
+    XGpio LED_XGpio;
+    int LED_num = 0x03;
+
+    XGpio_Initialize(&LED_XGpio, XPAR_AXI_GPIO_0_BASEADDR);
+    XGpio_SetDataDirection(&LED_XGpio, 1, 0);
+
+    printf("Start!!!");
+
+    while(1) {
+    	printf("LED_num = 0x%x\n", LED_num);
+
+    	XGpio_DiscreteWrite(&LED_XGpio, 1, LED_num);
+
+    	LED_num = ~LED_num;
+
+    	delay(1000);
+    }
+
+    return 0;
+}
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# 
+# Start of session at: Mon Apr  2 21:08:26 2018
+# Process ID: 6440
+# Current directory: /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.sdk/webtalk/webtalk.log
+# Journal file: /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
