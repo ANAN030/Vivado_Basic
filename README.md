@@ -1,2 +1,8 @@
 # ZedBoard PS-PL Basic
-Vivado 和 Xilinx SDK 基本操作
+會使用 Vivado 和 Xilinx SDK 做基本操作
+
+# Vivado 操作步驟
+> 步驟一
+>> ![GITHUB](image/01.png "01")
+
+
