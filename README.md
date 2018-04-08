@@ -10,8 +10,8 @@
 # Vivado 操作步驟
 步驟 1
 
-> 創建一個新的專案<br><br>
-> ![GITHUB](image/01.png "01")
+創建一個新的專案<br><br>
+![GITHUB](image/01.png "01")
 
 步驟 2
 ![GITHUB](image/02.png "02")
