@@ -13,29 +13,29 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/01.png "01")
 
 <br>步驟 2
-> ![GITHUB](image/02.png "02")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/02.png "02")
 
 <br>步驟 3
-> ![GITHUB](image/03.png "03")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/03.png "03")
 
 <br>步驟 4
-> ![GITHUB](image/04.png "04")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/04.png"04")
 
 <br>步驟 5
-> ![GITHUB](image/05.png "05")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/05.png "05")
 
 <br>步驟 6
-> ![GITHUB](image/06.png "06")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/06.png "06")
 
 <br>步驟 7
-> ![GITHUB](image/07.png "07")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/07.png "07")
 
 <br>步驟 8
-> ![GITHUB](image/08.png "08")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/08.png "08")
 
 <br>步驟 9
-> ![GITHUB](image/09.png "09")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/09.png "09")
 
 <br>步驟 10
-> ![GITHUB](image/10.png "10")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/10.png "10")
 
