@@ -167,8 +167,7 @@
 
 # Xilinx SDK 操作步驟
 步驟 1
-> Xilinx SDK 一開始會載入一些在Vivado的檔案,等載入完就會看到這個畫面.
-
+> Xilinx SDK 一開始會載入一些在Vivado的檔案,等載入完就會看到這個畫面.<br>
 > p.s.遇到載入失敗的,我是把Vivado和SDK分開灌就解決,假如有遇到可以試試看.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/41.png "41")
 
@@ -180,7 +179,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/43.png "43")
 
 <br>步驟 4
-> 選擇一個空的專案,你也可以選擇"Hello World",會自動幫你建一些簡單的檔案.
+> 選擇"Empty Application",這是建立一個空的專案,你也可以選擇"Hello World",會自動幫你建一些簡單的檔案.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/44.png "44")
 
 <br>步驟 5
@@ -237,11 +236,22 @@
 > 
 
 <br>步驟 8
+> 要將Vivado所生成的位元流設定進FPGA晶片中.<br>
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/48.png "48")
 
 <br>步驟 9
+> 要是剛剛在步驟39沒把"Include bitstream"打勾,那Bitstream這邊會沒有檔案.<br>
+> 我們可以到
+> ```
+> /"Vivado 專案名"/"Vivado 專案名" + .runs/impl_1/design_1_wrapper.bit
+> ```
+> 例.
+> ```
+> /PSPL_Basic/PSPL_Basic.runs/impl_1/design_1_wrapper.bit
+> ```
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/49.png "49")
 
 <br>步驟 10
+> 那接下來就是在開發板執行.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/50.png "50")
 
