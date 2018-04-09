@@ -29,10 +29,10 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/ZedBoard.png "ZedBoard")
 
 <br>步驟 6
-> 創建一個設計區塊
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/06.png "06")
 
 <br>步驟 7
+> 創建一個設計區塊
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/07.png "07")
 
 <br>步驟 8
