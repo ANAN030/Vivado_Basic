@@ -167,11 +167,12 @@
 
 # Xilinx SDK 操作步驟
 步驟 1
-> Xilinx SDK 一開始會是這個畫面.
+> Xilinx SDK 一開始會載入一些在Vivado的檔案,等載入完就會看到這個畫面.
+> p.s.遇到載入失敗的,我是把Vivado和SDK分開灌就解決,假如有遇到可以試試看.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/41.png "41")
 
 <br>步驟 2
-> 新增一專案.
+> 新增一個專案.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/42.png "42")
 
 <br>步驟 3
