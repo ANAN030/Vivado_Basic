@@ -25,7 +25,7 @@
 <br>步驟 5
 > 這邊選擇自己的開發板型號,而我是使用ZedBoard開發板.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/05.png "05")
-> ZedBoard有C和D板子,我們可以從這邊看到.
+> ZedBoard有C和D板子,我們可以從這邊看到,不過現在大部份都是D,只有剛出時購買的才會是C.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/ZedBoard.png "ZedBoard")
 
 <br>步驟 6
