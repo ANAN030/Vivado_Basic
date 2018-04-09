@@ -19,6 +19,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/03.png "03")
 
 <br>步驟 4
+> 在這次的專案沒有需要另外加入其他檔案,所以"Do not specify sources at this time"選擇起來.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/04.png "04")
 
 <br>步驟 5
@@ -28,6 +29,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/ZedBoard.png "ZedBoard")
 
 <br>步驟 6
+> 創建一個設計區塊
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/06.png "06")
 
 <br>步驟 7
@@ -37,6 +39,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/08.png "08")
 
 <br>步驟 9
+> 新增PS部份
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/09.png "09")
 
 <br>步驟 10
