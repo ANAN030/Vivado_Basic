@@ -78,6 +78,7 @@
 
 <br>步驟 19
 > 接下來我們打一些用不到的功能關掉,點擊兩下.
+> （）
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/19.png "19")
 
 <br>步驟 20
@@ -85,24 +86,33 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/20.png "20")
 
 <br>步驟 21
+> 把這些關掉,在這次的專案中我們不會用到這些.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/21.png "21")
 
 <br>步驟 22
+> 還有一些要關掉,所以在點進去.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/22.png "22")
 
 <br>步驟 23
+> "TTC" 點擊兩下,會自動跳過去.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/23.png "23")
 
 <br>步驟 24
+> 把這個關掉,一樣是這次專案用不到.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/24.png "24")
 
 <br>步驟 25
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/25.png "25")
 
 <br>步驟 26
+> 儲存和驗證
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/26.png "26")
 
 <br>步驟 27
+> 你也是用Vivado 2017的版本,會出現這個警告,不過這警告不會影響到結果,所以我們這邊先無視.<br>
+> 你用Vivado 2016或以下的版本,應該是不會出現這個問題.<br>
+> 我有找到也有人遇到這問題的解釋,假如以興趣可以點進去看看.<br>
+> <https://forums.xilinx.com/t5/Design-Entry/Vivado-critical-warning-when-creating-hardware-wrapper/m-p/767113#M13539>
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/27.png "27")
 
 <br>步驟 28
