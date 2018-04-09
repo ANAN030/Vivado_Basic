@@ -54,7 +54,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/12.png "12")
 
 <br>步驟 13
-> 就會看到Vivado幫我們接的線,再來新LED和AXI-GPIO的部份.
+> 就會看到Vivado幫我們接的線,再來新增LED和AXI-GPIO的部份.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/13.png "13")
 
 <br>步驟 14
@@ -73,7 +73,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/17.png "17")
 
 <br>步驟 18
-> 自動整理.
+> 自動整理.（可能位置會跟我的有些差異）
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/18.png "18")
 
 <br>步驟 19
@@ -83,4 +83,34 @@
 <br>步驟 20
 > "UART" 點擊兩下,會自動跳過去.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/20.png "20")
+
+<br>步驟 21
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/21.png "21")
+
+<br>步驟 22
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/22.png "22")
+
+<br>步驟 23
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/23.png "23")
+
+<br>步驟 24
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/24.png "24")
+
+<br>步驟 25
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/25.png "25")
+
+<br>步驟 26
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/26.png "26")
+
+<br>步驟 27
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/27.png "27")
+
+<br>步驟 28
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/28.png "28")
+
+<br>步驟 29
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/29.png "29")
+
+<br>步驟 30
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/30.png "30")
 
