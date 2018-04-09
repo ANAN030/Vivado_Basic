@@ -77,8 +77,8 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/18.png "18")
 
 <br>步驟 19
-> 接下來我們打一些用不到的功能關掉,點擊兩下.
-> （）
+> 接下來我們把一些用不到的功能關掉,讓Vivado不要生成沒用到的東西.<br>
+> （步驟19到步驟25不一定要做,因為沒把這些用不到功能的關掉,也不會影響到最後的結果）
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/19.png "19")
 
 <br>步驟 20
