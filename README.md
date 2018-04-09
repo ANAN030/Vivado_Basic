@@ -10,7 +10,7 @@
 # Vivado 操作步驟
 步驟 1
 > 創建一個新的專案<br><br>
-> ![GITHUB](image/01.png "01")
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/01.png "01")
 
 <br>步驟 2
 > ![GITHUB](image/02.png "02")
