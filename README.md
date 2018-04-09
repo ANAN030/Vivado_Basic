@@ -163,5 +163,36 @@
 > 這是Vivado的最後步驟,Vivado會去打開Xilinx SDK,那我們就可開始設計PS部份了.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/40.png "40")
 
+<br>
+
 # Xilinx SDK 操作步驟
+<br>步驟 1
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/41.png "41")
+
+<br>步驟 2
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/42.png "42")
+
+<br>步驟 3
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/43.png "43")
+
+<br>步驟 4
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/44.png "44")
+
+<br>步驟 5
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/45.png "45")
+
+<br>步驟 6
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/46.png "46")
+
+<br>步驟 7
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/47.png "47")
+
+<br>步驟 8
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/48.png "48")
+
+<br>步驟 9
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/49.png "49")
+
+<br>步驟 10
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/50.png "50")
 
