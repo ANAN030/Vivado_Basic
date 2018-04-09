@@ -110,7 +110,7 @@
 
 <br>步驟 27
 > 你也是用Vivado 2017的版本,會出現這個警告,不過這警告不會影響到結果,所以我們這邊先無視.<br>
-> 我有找到也有人遇到這問題的解釋,假如以興趣可以點進去看看.<br>
+> 我有找到也有人遇到這問題的解釋,假如有興趣可以點進去看看.<br>
 > <https://forums.xilinx.com/t5/Design-Entry/Vivado-critical-warning-when-creating-hardware-wrapper/m-p/767113#M13539>
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/27.png "27")
 > 你用Vivado 2016或以下的版本,應該是不會出現上面的問題,會直接跳出下面這個,就表示驗證完成.<br>
