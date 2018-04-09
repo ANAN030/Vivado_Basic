@@ -160,6 +160,8 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/39.png "39")
 
 <br>步驟 40
-> 這是Vivado的最後步驟,Vivado會去打開Xilinx SDK,我們就可開始設計PS部份了.
+> 這是Vivado的最後步驟,Vivado會去打開Xilinx SDK,那我們就可開始設計PS部份了.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/40.png "40")
+
+# Xilinx SDK 操作步驟
 
