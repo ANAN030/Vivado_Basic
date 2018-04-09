@@ -118,7 +118,7 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/27-1.png "27-1")
 
 <br>步驟 28
-> 將設計區塊的設計,自動生成為HDL和相對應的約束文件.
+> 將設計區塊的設計,自動生成為HDL（硬體描述語言）和相對應的約束文件.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/28.png "28")
 
 <br>步驟 29
@@ -128,12 +128,14 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/30.png "30")
 
 <br>步驟 31
+> 將剛剛生成的HDL,用頂層文件包裝起來.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/31.png "31")
 
 <br>步驟 32
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/32.png "32")
 
 <br>步驟 33
+> 接下來就是生成位元流,而FPGA就是靠這位元流來設定電路的.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/33.png "33")
 
 <br>步驟 34
@@ -143,17 +145,21 @@
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/35.png "35")
 
 <br>步驟 36
+> 等一小段時間,讓Vivado生成.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/36.png "36")
 
 <br>步驟 37
+> 生成完後,這邊我們就不去看生成後的電路分佈了.（假如有興趣的話,再影片的部份我有點進去)
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/37.png "37")
 
 <br>步驟 38
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/38.png "38")
 
 <br>步驟 39
+> "Include bitstream"這要勾起,不然等等要自己去選擇位元流檔的位置,除非你要用另外的位元流檔.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/39.png "39")
 
 <br>步驟 40
+> 這是Vivado的最後步驟,Vivado會去打開Xilinx SDK,我們就可開始設計PS部份了.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/40.png "40")
 
