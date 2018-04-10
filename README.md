@@ -239,8 +239,12 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 >     return 0;
 > }
 > ```
-
-> 
+>
+> <br>
+>
+> ```
+> XPAR_AXI_GPIO_0_DEVICE_ID
+> ``` 
 
 <br>步驟 8
 > 要將Vivado所生成的位元流設定進FPGA晶片中.<br>
@@ -250,11 +254,11 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 > 要是剛剛在步驟39沒把"Include bitstream"打勾,那Bitstream這邊會沒有檔案.<br>
 > 我們可以到
 > ```
-> /"Vivado 專案名"/"Vivado 專案名" + .runs/impl_1/design_1_wrapper.bit
+> .../"Vivado 專案名"/"Vivado 專案名" + .runs/impl_1/design_1_wrapper.bit
 > ```
 > 例.
 > ```
-> /PSPL_Basic/PSPL_Basic.runs/impl_1/design_1_wrapper.bit
+> .../PSPL_Basic/PSPL_Basic.runs/impl_1/design_1_wrapper.bit
 > ```
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/49.png "49")
 
