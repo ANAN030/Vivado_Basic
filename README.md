@@ -242,7 +242,7 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 >
 > <br>
 >
-> 這個函數庫裡面放了很多記憶體的地址,而這些地址就是讓PS和PL做通訊的媒介,....
+> 這個函數庫裡面放了很多記憶體的地址,而這些地址就是讓PS和PL做通訊的媒介,像是"XPAR_AXI_GPIO_0_DEVICE_ID"就是在Vivado步驟16時,我們所建立的GPIO_0,在PL的GPIO透過讀取記憶體內容,來去控制LED,達到PS和PL通訊.
 > 
 > ```
 > #include "xparameters.h"		// 參數集.
