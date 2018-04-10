@@ -283,5 +283,5 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/52.png "52")
 
 <br>結果
-![conv_ops](/image/Result.gif)
+> ![conv_ops](/image/Result.gif)
 
