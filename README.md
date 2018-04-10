@@ -273,8 +273,12 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/50.png "50")
 
 <br>步驟 12
-> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/51.png "51")
+> 把UART給接上.
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/ZedBoard03.png "ZedBoard03")
 
 <br>步驟 13
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/51.png "51")
+
+<br>步驟 14
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/52.png "52")
 
