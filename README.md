@@ -7,6 +7,8 @@
 
 不過兩種是不同時間點做的,會有一些小差異,不過大致上都是相同.
 
+https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
+
 # Vivado 操作步驟
 步驟 1
 > 創建一個新的專案<br><br>
