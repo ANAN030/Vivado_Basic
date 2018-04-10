@@ -249,10 +249,14 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 > ``` 
 
 <br>步驟 8
-> 要將Vivado所生成的位元流設定進FPGA晶片中.<br>
-> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/48.png "48")
+> 把燒路線和電源打開.
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/ZedBoard02.png "ZedBoard02")
 
 <br>步驟 9
+> 接下來要將Vivado所生成的位元流設定進FPGA晶片中.<br>
+> ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/48.png "48")
+
+<br>步驟 10
 > 要是剛剛在步驟39沒把"Include bitstream"打勾,那Bitstream這邊會沒有檔案.<br>
 > 我們可以到
 > ```
@@ -264,13 +268,13 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 > ```
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/49.png "49")
 
-<br>步驟 10
+<br>步驟 11
 > 那接下來就是在開發板執行.
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/50.png "50")
 
-<br>步驟 11
+<br>步驟 12
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/51.png "51")
 
-<br>步驟 12
+<br>步驟 13
 > ![GITHUB](https://raw.githubusercontent.com/ANAN030/ZedBoard-PS-PL-Basic/master/image/52.png "52")
 
