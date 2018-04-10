@@ -242,8 +242,10 @@ https://drive.google.com/open?id=0B4iGyGJUsol1eDV1ZE1BSWJ3VU0
 >
 > <br>
 >
+> 這個函數庫裡面放了很多記憶體的地址,而這些地址就是讓PS和PL做通訊的媒介,....
+> 
 > ```
-> XPAR_AXI_GPIO_0_DEVICE_ID
+> #include "xparameters.h"		// 參數集.
 > ``` 
 
 <br>步驟 8
