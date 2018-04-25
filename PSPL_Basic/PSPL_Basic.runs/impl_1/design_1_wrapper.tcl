@@ -69,15 +69,15 @@ set rc [catch {
   set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.cache/wt [current_project]
-  set_property parent.project_path /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.xpr [current_project]
-  set_property ip_output_repo /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.cache/wt [current_project]
+  set_property parent.project_path /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.xpr [current_project]
+  set_property ip_output_repo /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/design_1.bd
+  add_files /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xc7z020clg484-1
@@ -119,7 +119,7 @@ set rc [catch {
   write_checkpoint -force design_1_wrapper_placed.dcp
   create_report "impl_1_place_report_io_0" "report_io -file design_1_wrapper_io_placed.rpt"
   create_report "impl_1_place_report_utilization_0" "report_utilization -file design_1_wrapper_utilization_placed.rpt -pb design_1_wrapper_utilization_placed.pb"
-  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt"
+  create_report "impl_1_place_report_control_sets_0" "report_control_sets -file design_1_wrapper_control_sets_placed.rpt"
   close_msg_db -file place_design.pb
 } RESULT]
 if {$rc} {
@@ -140,7 +140,7 @@ set rc [catch {
   create_report "impl_1_route_report_methodology_0" "report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx"
   create_report "impl_1_route_report_power_0" "report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx"
   create_report "impl_1_route_report_route_status_0" "report_route_status -file design_1_wrapper_route_status.rpt -pb design_1_wrapper_route_status.pb"
-  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -file design_1_wrapper_timing_summary_routed.rpt -warn_on_violation  -rpx design_1_wrapper_timing_summary_routed.rpx"
+  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -file design_1_wrapper_timing_summary_routed.rpt -warn_on_violation  -rpx design_1_wrapper_timing_summary_routed.rpx"
   create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file design_1_wrapper_incremental_reuse_routed.rpt"
   create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file design_1_wrapper_clock_utilization_routed.rpt"
   close_msg_db -file route_design.pb

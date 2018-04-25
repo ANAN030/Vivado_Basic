@@ -1,8 +1,8 @@
-02:25:36 **** Incremental Build of configuration Debug for project PSPL_Basic_SDK ****
+18:04:24 **** Incremental Build of configuration Debug for project PSPL_Basic_SDK ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
 
-02:25:36 Build Finished (took 347ms)
+18:04:24 Build Finished (took 129ms)
 

@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1'
+HD_PWD='/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -17,13 +17,13 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 4877 
+INFO: Helper process launched with PID 3208 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1317.559 ; gain = 93.996 ; free physical = 2745 ; free virtual = 16184
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1317.562 ; gain = 93.996 ; free physical = 5768 ; free virtual = 17877
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
-INFO: [Synth 8-638] synthesizing module 'design_1' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_1' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:84]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -39,8 +39,8 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [/home/anan/git-
 	Parameter C_IS_DUAL bound to: 0 - type: integer 
 	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
 	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
-INFO: [Synth 8-3491] module 'axi_gpio' declared at '/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1265' bound to instance 'U0' of component 'axi_gpio' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:167]
-INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
+INFO: [Synth 8-3491] module 'axi_gpio' declared at '/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1265' bound to instance 'U0' of component 'axi_gpio' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -56,9 +56,9 @@ INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/anan/git-home/ZedBoard
 	Parameter C_IS_DUAL bound to: 0 - type: integer 
 	Parameter C_DOUT_DEFAULT_2 bound to: 0 - type: integer 
 	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1295]
-INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1296]
-INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1295]
+INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1296]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_MIN_SIZE bound to: 32'b00000000000000000000000111111111 
@@ -67,7 +67,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/anan/git-home/Zed
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000100 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000100 
 	Parameter C_IPIF_ABUS_WIDTH bound to: 9 - type: integer 
@@ -76,41 +76,41 @@ INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/anan/git-home/
 	Parameter C_USE_WSTRB bound to: 0 - type: integer 
 	Parameter C_DPHASE_TIMEOUT bound to: 8 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
 	Parameter C_BUS_AWIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_MIN_SIZE bound to: 511 - type: integer 
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000100 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b00 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b01 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b10 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b11 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
-INFO: [Synth 8-226] default block is never used [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
-INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
-INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
-INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
 	Parameter C_DW bound to: 32 - type: integer 
 	Parameter C_AW bound to: 9 - type: integer 
 	Parameter C_GPIO_WIDTH bound to: 8 - type: integer 
@@ -127,8 +127,8 @@ INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/anan/git-home/ZedBoar
 	Parameter C_DOUT_DEFAULT_2 bound to: 0 - type: integer 
 	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-226] default block is never used [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:443]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-226] default block is never used [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:443]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 0 - type: integer 
@@ -136,116 +136,116 @@ INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/anan/git-home/ZedBoard
 	Parameter C_VECTOR_WIDTH bound to: 8 - type: integer 
 	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[1].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[2].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[3].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[4].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[5].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[6].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[7].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
-WARNING: [Synth 8-6014] Unused sequential element Not_Dual.gpio_Data_In_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:486]
-INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
-INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_0' (8#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
-INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[1].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[2].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[3].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[4].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[5].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[6].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[7].GPIO_DBus_i_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.gpio_Data_In_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:486]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_0' (8#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
 	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
 	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
 	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
@@ -302,21 +302,21 @@ INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_syst
 	Parameter C_USE_S_AXI_ACP bound to: 0 - type: integer 
 	Parameter C_GP0_EN_MODIFIABLE_TXN bound to: 1 - type: integer 
 	Parameter C_GP1_EN_MODIFIABLE_TXN bound to: 1 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1347]
-INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1348]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1347]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1348]
 INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
 INFO: [Synth 8-256] done synthesizing module 'BUFG' (9#1) [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
 INFO: [Synth 8-638] synthesizing module 'BIBUF' [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:268]
 INFO: [Synth 8-256] done synthesizing module 'BIBUF' (10#1) [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:268]
 INFO: [Synth 8-638] synthesizing module 'PS7' [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:40559]
 INFO: [Synth 8-256] done synthesizing module 'PS7' (11#1) [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:40559]
-INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (12#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
-WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:313]
-INFO: [Synth 8-256] done synthesizing module 'design_1_processing_system7_0_0' (13#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
-INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:298]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:603]
-INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_axi_protocol_converter' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (12#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:313]
+INFO: [Synth 8-256] done synthesizing module 'design_1_processing_system7_0_0' (13#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:298]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:603]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_axi_protocol_converter' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_M_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
@@ -342,39 +342,39 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_axi_prot
 	Parameter P_SLVERR bound to: 2'b10 
 	Parameter P_PROTECTION bound to: 1 - type: integer 
 	Parameter P_CONVERSION bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_SUPPORTS_WRITE bound to: 1 - type: integer 
 	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_aw_channel' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_aw_channel' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_cmd_translator' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_cmd_translator' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter P_AXBURST_FIXED bound to: 2'b00 
 	Parameter P_AXBURST_INCR bound to: 2'b01 
 	Parameter P_AXBURST_WRAP bound to: 2'b10 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_incr_cmd' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_incr_cmd' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_incr_cmd' (14#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wrap_cmd' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_incr_cmd' (14#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wrap_cmd' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wrap_cmd' (15#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_cmd_translator' (16#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wr_cmd_fsm' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wrap_cmd' (15#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_cmd_translator' (16#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wr_cmd_fsm' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE_WAIT bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3279]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wr_cmd_fsm' (17#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_aw_channel' (18#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_b_channel' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-226] default block is never used [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3279]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wr_cmd_fsm' (17#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_aw_channel' (18#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_b_channel' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter LP_RESP_OKAY bound to: 2'b00 
 	Parameter LP_RESP_EXOKAY bound to: 2'b01 
@@ -386,7 +386,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_b_ch
 	Parameter P_RWIDTH bound to: 2 - type: integer 
 	Parameter P_RDEPTH bound to: 4 - type: integer 
 	Parameter P_RAWIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 	Parameter C_WIDTH bound to: 20 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -394,8 +394,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simp
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo' (19#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo' (19#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -403,22 +403,22 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simp
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized0' (19#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_b_channel' (20#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_ar_channel' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized0' (19#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_b_channel' (20#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_ar_channel' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3398]
-WARNING: [Synth 8-6014] Unused sequential element state_r1_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3386]
-WARNING: [Synth 8-6014] Unused sequential element s_arlen_r_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3387]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm' (21#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_ar_channel' (22#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_channel' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-226] default block is never used [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3398]
+WARNING: [Synth 8-6014] Unused sequential element state_r1_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3386]
+WARNING: [Synth 8-6014] Unused sequential element s_arlen_r_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3387]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm' (21#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_ar_channel' (22#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_channel' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter P_WIDTH bound to: 13 - type: integer 
@@ -427,7 +427,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_ch
 	Parameter P_D_WIDTH bound to: 34 - type: integer 
 	Parameter P_D_DEPTH bound to: 32 - type: integer 
 	Parameter P_D_AWIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized1' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized1' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 	Parameter C_WIDTH bound to: 34 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -435,8 +435,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simp
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized1' (22#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized2' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized1' (22#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized2' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 	Parameter C_WIDTH bound to: 13 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -444,9 +444,9 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simp
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized2' (22#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_channel' (23#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized2' (22#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_channel' (23#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
@@ -539,27 +539,27 @@ INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 66 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' (24#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' (24#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 49 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized0' (24#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized1' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized0' (24#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized1' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 14 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized1' (24#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized2' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized1' (24#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized2' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 47 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized2' (24#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized2' (24#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -651,8 +651,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (25#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (25#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -744,10 +744,10 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (26#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
-WARNING: [Synth 8-350] instance 'SI_REG' of module 'axi_register_slice_v2_1_14_axi_register_slice' requires 93 connections, but only 92 given [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4395]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (26#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+WARNING: [Synth 8-350] instance 'SI_REG' of module 'axi_register_slice_v2_1_14_axi_register_slice' requires 93 connections, but only 92 given [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4395]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -840,27 +840,27 @@ INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized3' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized3' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 35 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized3' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized4' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized3' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized4' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized4' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized5' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized4' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized5' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 2 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized5' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized6' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized5' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized6' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 34 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized6' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized6' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -952,8 +952,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__p
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -1045,16 +1045,16 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__p
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice__parameterized0' (27#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
-WARNING: [Synth 8-350] instance 'MI_REG' of module 'axi_register_slice_v2_1_14_axi_register_slice' requires 93 connections, but only 92 given [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4650]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s' (28#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_axi_protocol_converter' (29#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
-INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_0' (30#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
-WARNING: [Synth 8-350] instance 'auto_pc' of module 'design_1_auto_pc_0' requires 59 connections, but only 57 given [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:838]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (31#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:603]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (32#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:298]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice__parameterized0' (27#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+WARNING: [Synth 8-350] instance 'MI_REG' of module 'axi_register_slice_v2_1_14_axi_register_slice' requires 93 connections, but only 92 given [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4650]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s' (28#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_axi_protocol_converter' (29#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_0' (30#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+WARNING: [Synth 8-350] instance 'auto_pc' of module 'design_1_auto_pc_0' requires 59 connections, but only 57 given [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:838]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (31#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:603]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (32#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:298]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -1064,8 +1064,8 @@ INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [/home/anan/
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd:129]
-INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -1079,37 +1079,37 @@ INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/anan/git-home/Ze
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
 	Parameter INIT bound to: 1'b1 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
 	Parameter INIT bound to: 1'b1 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
-INFO: [Synth 8-638] synthesizing module 'lpf' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
 	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
-INFO: [Synth 8-3491] module 'SRL16' declared at '/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
 INFO: [Synth 8-638] synthesizing module 'SRL16' [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689]
 	Parameter INIT bound to: 16'b0000000000000000 
 INFO: [Synth 8-256] done synthesizing module 'SRL16' (33#1) [/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
@@ -1117,29 +1117,29 @@ INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [/home/anan/g
 	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
 	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (33#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (34#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
-INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (33#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (34#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
 	Parameter C_SIZE bound to: 6 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (35#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
-INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (36#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (37#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
-INFO: [Synth 8-256] done synthesizing module 'design_1_rst_ps7_0_100M_0' (38#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd:74]
-WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' requires 10 connections, but only 7 given [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:288]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (39#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (40#1) [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (35#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (36#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (37#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rst_ps7_0_100M_0' (38#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd:74]
+WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' requires 10 connections, but only 7 given [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:288]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (39#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (40#1) [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 WARNING: [Synth 8-3331] design cdc_sync__parameterized0 has unconnected port prmry_aclk
 WARNING: [Synth 8-3331] design cdc_sync__parameterized0 has unconnected port prmry_resetn
 WARNING: [Synth 8-3331] design cdc_sync__parameterized0 has unconnected port prmry_vect_in[1]
@@ -1242,7 +1242,7 @@ WARNING: [Synth 8-3331] design axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm has
 WARNING: [Synth 8-3331] design axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm has unconnected port s_arlen[2]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 1450.090 ; gain = 226.527 ; free physical = 2780 ; free virtual = 16200
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 1450.094 ; gain = 226.527 ; free physical = 5789 ; free virtual = 17878
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1252,7 +1252,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 1450.090 ; gain = 226.527 ; free physical = 2784 ; free virtual = 16205
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:46 . Memory (MB): peak = 1450.094 ; gain = 226.527 ; free physical = 5794 ; free virtual = 17883
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1261,21 +1261,21 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
-Finished Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
-Finished Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
-Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
-Finished Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
-Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
-Finished Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
-Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
-Finished Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
-Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
@@ -1284,23 +1284,23 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 60 instances
   SRL16 => SRL16E: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1709.113 ; gain = 0.000 ; free physical = 2445 ; free virtual = 15904
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1709.117 ; gain = 0.000 ; free physical = 5418 ; free virtual = 17553
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:01:10 . Memory (MB): peak = 1709.113 ; gain = 485.551 ; free physical = 2554 ; free virtual = 16012
+Finished Constraint Validation : Time (s): cpu = 00:00:49 ; elapsed = 00:01:17 . Memory (MB): peak = 1709.117 ; gain = 485.551 ; free physical = 5556 ; free virtual = 17681
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:01:10 . Memory (MB): peak = 1709.113 ; gain = 485.551 ; free physical = 2554 ; free virtual = 16012
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:49 ; elapsed = 00:01:17 . Memory (MB): peak = 1709.117 ; gain = 485.551 ; free physical = 5556 ; free virtual = 17681
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc, line 23).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0/U0. (constraint file  /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc, line 26).
-Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M/U0. (constraint file  /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc, line 34).
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc, line 23).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0/U0. (constraint file  /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc, line 26).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M/U0. (constraint file  /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/dont_touch.xdc, line 34).
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
@@ -1308,91 +1308,91 @@ Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constra
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:01:10 . Memory (MB): peak = 1709.113 ; gain = 485.551 ; free physical = 2555 ; free virtual = 16014
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:01:18 . Memory (MB): peak = 1709.117 ; gain = 485.551 ; free physical = 5558 ; free virtual = 17683
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_axi_bresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_axi_bresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-WARNING: [Synth 8-6014] Unused sequential element INCLUDE_DPHASE_TIMER.dpto_cnt_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2674]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element bresp_cnt_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3759]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[31] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[30] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[29] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[28] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[27] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[26] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[25] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[24] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[23] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[22] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[21] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[20] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[19] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[18] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[17] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[16] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[15] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[14] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[13] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[12] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[11] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[10] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[9] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[8] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[7] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[6] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[5] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[4] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[31] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[30] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[29] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[28] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[27] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[26] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[25] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[24] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[23] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[22] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[21] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[20] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[19] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[18] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[17] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[16] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[15] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[14] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[13] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[12] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[11] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[10] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[9] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[8] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[7] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[6] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[5] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[4] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
-WARNING: [Synth 8-6014] Unused sequential element q_int_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:138]
-INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:377]
-WARNING: [Synth 8-6014] Unused sequential element seq_cnt_en_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:377]
+WARNING: [Synth 8-6014] Unused sequential element INCLUDE_DPHASE_TIMER.dpto_cnt_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2674]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element bresp_cnt_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3759]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[31] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[30] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[29] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[28] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[27] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[26] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[25] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[24] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[23] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[22] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[21] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[20] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[19] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[18] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[17] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[16] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[15] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[14] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[13] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[12] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[11] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[10] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[9] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[8] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[7] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[6] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[5] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[4] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[31] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[30] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[29] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[28] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[27] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[26] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[25] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[24] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[23] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[22] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[21] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[20] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[19] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[18] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[17] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[16] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[15] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[14] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[13] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[12] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[11] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[10] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[9] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[8] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[7] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[6] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[5] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[4] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[3] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[2] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[1] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element memory_reg[0] was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2857]
+WARNING: [Synth 8-6014] Unused sequential element q_int_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:138]
+INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:377]
+WARNING: [Synth 8-6014] Unused sequential element seq_cnt_en_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:377]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:45 ; elapsed = 00:01:11 . Memory (MB): peak = 1709.113 ; gain = 485.551 ; free physical = 2546 ; free virtual = 16004
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:51 ; elapsed = 00:01:19 . Memory (MB): peak = 1709.117 ; gain = 485.551 ; free physical = 5550 ; free virtual = 17675
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1669,13 +1669,13 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
-WARNING: [Synth 8-6014] Unused sequential element bus2ip_reset_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
-WARNING: [Synth 8-6014] Unused sequential element AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2674]
-INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/gen_simple_aw.aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:422]
-INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/gen_simple_ar.ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:422]
-WARNING: [Synth 8-6014] Unused sequential element inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_cnt_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3759]
-WARNING: [Synth 8-6014] Unused sequential element SEQ/SEQ_COUNTER/q_int_reg was removed.  [/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:138]
+INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
+WARNING: [Synth 8-6014] Unused sequential element bus2ip_reset_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
+WARNING: [Synth 8-6014] Unused sequential element AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2674]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/gen_simple_aw.aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:422]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/gen_simple_ar.ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:422]
+WARNING: [Synth 8-6014] Unused sequential element inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_cnt_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3759]
+WARNING: [Synth 8-6014] Unused sequential element SEQ/SEQ_COUNTER/q_int_reg was removed.  [/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:138]
 INFO: [Synth 8-3886] merging instance 'design_1_i/axi_gpio_0/U0/ip2bus_data_i_D1_reg[23]' (FDR) to 'design_1_i/axi_gpio_0/U0/ip2bus_data_i_D1_reg[22]'
 INFO: [Synth 8-3886] merging instance 'design_1_i/axi_gpio_0/U0/ip2bus_data_i_D1_reg[22]' (FDR) to 'design_1_i/axi_gpio_0/U0/ip2bus_data_i_D1_reg[21]'
 INFO: [Synth 8-3886] merging instance 'design_1_i/axi_gpio_0/U0/ip2bus_data_i_D1_reg[21]' (FDR) to 'design_1_i/axi_gpio_0/U0/ip2bus_data_i_D1_reg[20]'
@@ -1829,7 +1829,7 @@ WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GE
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module proc_sys_reset.
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module proc_sys_reset.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:13 . Memory (MB): peak = 1709.113 ; gain = 485.551 ; free physical = 2516 ; free virtual = 15976
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:01:22 . Memory (MB): peak = 1709.117 ; gain = 485.551 ; free physical = 5523 ; free virtual = 17650
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1841,13 +1841,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:52 ; elapsed = 00:01:21 . Memory (MB): peak = 1862.113 ; gain = 638.551 ; free physical = 2230 ; free virtual = 15700
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:30 . Memory (MB): peak = 1862.117 ; gain = 638.551 ; free physical = 5241 ; free virtual = 17377
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:01:23 . Memory (MB): peak = 1919.207 ; gain = 695.645 ; free physical = 2188 ; free virtual = 15658
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:32 . Memory (MB): peak = 1920.211 ; gain = 696.645 ; free physical = 5199 ; free virtual = 17335
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1864,7 +1864,7 @@ INFO: [Synth 8-3332] Sequential element (inst/gen_axilite.gen_b2s_conv.axilite_b
 INFO: [Synth 8-3332] Sequential element (inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/incr_cmd_0/axlen_cnt_reg[8]) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:55 ; elapsed = 00:01:24 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2188 ; free virtual = 15658
+Finished Technology Mapping : Time (s): cpu = 00:01:02 ; elapsed = 00:01:34 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5193 ; free virtual = 17331
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1905,7 +1905,7 @@ INFO: [Synth 8-4618] Found max_fanout attribute set to 20 on net \inst/gen_axili
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17333
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1918,7 +1918,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17333
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1930,25 +1930,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -2051,11 +2051,11 @@ Report Instance Areas:
 |43    |          SEQ_COUNTER                              |upcnt_n                                                        |    13|
 +------+---------------------------------------------------+---------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1927.215 ; gain = 703.652 ; free physical = 2189 ; free virtual = 15659
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.219 ; gain = 704.652 ; free physical = 5195 ; free virtual = 17332
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 236 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:01:04 . Memory (MB): peak = 1927.215 ; gain = 444.629 ; free physical = 2247 ; free virtual = 15717
-Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:01:26 . Memory (MB): peak = 1927.223 ; gain = 703.652 ; free physical = 2250 ; free virtual = 15720
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:54 ; elapsed = 00:01:12 . Memory (MB): peak = 1928.219 ; gain = 445.629 ; free physical = 5252 ; free virtual = 17389
+Synthesis Optimization Complete : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1928.227 ; gain = 704.652 ; free physical = 5259 ; free virtual = 17396
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -2069,8 +2069,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 381 Infos, 200 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:27 . Memory (MB): peak = 1927.223 ; gain = 728.488 ; free physical = 2405 ; free virtual = 15875
-INFO: [Common 17-1381] The checkpoint '/home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/design_1_wrapper.dcp' has been generated.
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:37 . Memory (MB): peak = 1928.227 ; gain = 729.488 ; free physical = 5410 ; free virtual = 17548
+INFO: [Common 17-1381] The checkpoint '/home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1951.227 ; gain = 0.000 ; free physical = 2407 ; free virtual = 15878
-INFO: [Common 17-206] Exiting Vivado at Sun Apr  1 21:49:35 2018...
+report_utilization: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1952.230 ; gain = 0.000 ; free physical = 5409 ; free virtual = 17548
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 25 17:57:59 2018...

@@ -2,11 +2,11 @@
 # Vivado v2017.3 (64-bit)
 # SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
 # IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Sun Apr  1 21:49:36 2018
-# Process ID: 5009
-# Current directory: /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/impl_1
+# Start of session at: Wed Apr 25 17:58:00 2018
+# Process ID: 3338
+# Current directory: /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/impl_1
 # Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
-# Log file: /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/impl_1/design_1_wrapper.vdi
-# Journal file: /home/anan/git-home/ZedBoard-PS-PL-Basic/PSPL_Basic/PSPL_Basic.runs/impl_1/vivado.jou
+# Log file: /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/anan/git-home/Vivado_Basic/PSPL_Basic/PSPL_Basic.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace

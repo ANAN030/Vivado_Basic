@@ -84,6 +84,9 @@ vcom -work proc_sys_reset_v5_0_12 -93 \
 vcom -work xil_defaultlib -93 \
 "../../../bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
 
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/d5d3/hdl/verilog" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e0a2/hdl" "+incdir+/opt/Xilinx/Vivado/2017.3/data/xilinx_vip/include" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/d5d3/hdl/verilog" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e0a2/hdl" "+incdir+/opt/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../bd/design_1/sim/design_1.v" \
+
 vlog -work generic_baseblocks_v2_1_0  -v2k5 "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/d5d3/hdl/verilog" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e0a2/hdl" "+incdir+/opt/Xilinx/Vivado/2017.3/data/xilinx_vip/include" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/d5d3/hdl/verilog" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e0a2/hdl" "+incdir+/opt/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
 "../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 
@@ -107,7 +110,6 @@ vlog -work axi_protocol_converter_v2_1_14  -v2k5 "+incdir+../../../../PSPL_Basic
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/d5d3/hdl/verilog" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e0a2/hdl" "+incdir+/opt/Xilinx/Vivado/2017.3/data/xilinx_vip/include" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/d5d3/hdl/verilog" "+incdir+../../../../PSPL_Basic.srcs/sources_1/bd/design_1/ipshared/e0a2/hdl" "+incdir+/opt/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
-"../../../bd/design_1/sim/design_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"
