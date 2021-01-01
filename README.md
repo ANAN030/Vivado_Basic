@@ -9,7 +9,7 @@
 
 # 影片
 
-https://www.youtube.com/watch?v=ICmR29FcpgU&t=12s&ab_channel=%E5%97%AF%E5%97%AF%E5%93%88%E5%93%88
+http://www.youtube.com/watch?v=ICmR29FcpgU
 
 [![](http://img.youtube.com/vi/ICmR29FcpgU/0.jpg)](http://www.youtube.com/watch?v=ICmR29FcpgU "")
 
